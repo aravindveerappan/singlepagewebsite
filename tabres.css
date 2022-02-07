@@ -1,0 +1,19 @@
+@media only screen and (max-width: 981px) {
+  .hero {
+    grid-template-columns: 1fr;
+    height: 100vh;
+  }
+  .heroimg {
+    background-position: top left;
+    background-image: url(img/hero2.jpg);
+  }
+  .heroLeft {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .heroimg2 {
+    background-image: url(img/hero\ 1.jpg);
+    width: 100%;
+    height: 100%;
+  }
+}

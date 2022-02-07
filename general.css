@@ -1,0 +1,144 @@
+/*************** colors ****************/
+/* btn #0C636D
+ main font #104d55
+ p fonts #78a2aa */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/**** typography ****/
+.fw {
+  color: white;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 4.4rem;
+  line-height: 1.2em;
+  font-weight: 500;
+  color: #104d55;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #104d55;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #104d55;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #78a2aa;
+}
+
+.mb {
+  margin-bottom: 18px;
+}
+.mbb {
+  margin-bottom: 24px;
+}
+
+/* Buttons */
+.btn1 {
+  display: inline-block;
+  color: white;
+  font-size: 1.6rem;
+  background-color: #0c636d;
+  border: 3px solid #0c636d;
+  padding: 1em 2em;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  transition: all 0.3s ease;
+}
+
+.btn2 {
+  display: inline-block;
+  color: #0c636d;
+  background-color: white;
+  border: 3px solid white;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  transition: all 0.3s ease;
+}
+.btn3 {
+  display: inline-block;
+  color: white;
+  border: 3px solid white;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  transition: all 0.3s ease;
+}
+
+.btn1:hover {
+  background-color: #0a545c;
+  border: 3px solid #0a545c;
+}
+.btn2:hover {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+}
+.btn3:hover {
+  background-color: white;
+  color: #0c636d;
+}
+
+.bg {
+  background-color: #0c636d;
+}
+.container {
+  max-width: 1000px;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+img {
+  display: inline;
+}
+
+/* card */
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+menu h3 {
+  border-bottom: 3px solid #104d5500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+menu h3:hover {
+  border-bottom: 3px solid #104d55;
+}
